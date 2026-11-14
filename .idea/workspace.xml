@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="51df1aa7-82d9-481e-a278-bbfbceb392ec" name="Changes" comment="Project files created" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +13,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/zeIbdo/DSAGroupFreeWork.git",
+    "accountId": "caccce0f-877a-4c11-9a71-7ec7eda62615"
+  }
+}]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0004021450636478" />
@@ -86,6 +95,10 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
@@ -104,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794678930904</updated>
-      <workItem from="1794678931917" duration="237000" />
+      <workItem from="1794678931917" duration="564000" />
     </task>
     <task id="LOCAL-00001" summary="Project files created">
       <option name="closed" value="true" />
@@ -114,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1794679035724</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Project files created">
+      <option name="closed" value="true" />
+      <created>1794679217452</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1794679217453</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Project files created">
+      <option name="closed" value="true" />
+      <created>1794679236598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1794679236598</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
