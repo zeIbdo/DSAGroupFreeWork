@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51df1aa7-82d9-481e-a278-bbfbceb392ec" name="Changes" comment="CustomDataStructures Folder and CustomArray class that includes custom definitions for fixed and dynamic array created">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="51df1aa7-82d9-481e-a278-bbfbceb392ec" name="Changes" comment="custom definition for hash table and binary search tree added. Added self-tests for data structures validation">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +36,23 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000002732130429" />
-      <entry key="S2" value="1.0778052529652622" />
-      <entry key="S5" value="2.3384808350629953" />
-      <entry key="S10" value="5.534777225347752" />
-      <entry key="S30" value="14.916444017750685" />
-      <entry key="S60" value="20.733892904684804" />
-      <entry key="M2" value="24.865822732509542" />
-      <entry key="M5" value="28.693803031549173" />
-      <entry key="M10" value="31.211955462513274" />
-      <entry key="M15" value="32.448087405740004" />
-      <entry key="M30" value="34.00563435583256" />
-      <entry key="H1" value="34.93951205897309" />
-      <entry key="H2" value="35.45268795328971" />
-      <entry key="H4" value="35.72191095019363" />
-      <entry key="D1" value="35.95302150443236" />
-      <entry key="W1" value="35.99327315555655" />
+      <entry key="MS100" value="1.0000000043906239" />
+      <entry key="MS500" value="1.0342355665044074" />
+      <entry key="S2" value="1.7200877947983897" />
+      <entry key="S5" value="2.328957288107654" />
+      <entry key="S10" value="2.7001871055760276" />
+      <entry key="S30" value="5.997900952529777" />
+      <entry key="S60" value="11.335423033938998" />
+      <entry key="M2" value="16.83252925244231" />
+      <entry key="M5" value="21.76286162626674" />
+      <entry key="M10" value="24.076662099669072" />
+      <entry key="M15" value="25.974626185277913" />
+      <entry key="M30" value="32.509084249593506" />
+      <entry key="H1" value="41.77614283419002" />
+      <entry key="H2" value="49.91898147133565" />
+      <entry key="H4" value="55.363059575665815" />
+      <entry key="D1" value="60.800329769262135" />
+      <entry key="W1" value="61.826174756672444" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -74,23 +74,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9659363289248456" />
-      <entry key="MS500" value="0.9930927655038909" />
-      <entry key="S2" value="1.075877848477213" />
-      <entry key="S5" value="2.336490132259354" />
-      <entry key="S10" value="5.532246658862278" />
-      <entry key="S30" value="14.914076640998035" />
-      <entry key="S60" value="20.732231816328625" />
-      <entry key="M2" value="24.86482113484118" />
-      <entry key="M5" value="28.69333412108422" />
-      <entry key="M10" value="31.21169603916171" />
-      <entry key="M15" value="32.4479059754481" />
-      <entry key="M30" value="34.005538208269385" />
-      <entry key="H1" value="34.939462339198826" />
-      <entry key="H2" value="35.45266263896394" />
-      <entry key="H4" value="35.72189817355209" />
-      <entry key="D1" value="35.95301935787458" />
-      <entry key="W1" value="35.99327284847925" />
+      <entry key="MS100" value="0.9592641234579177" />
+      <entry key="MS500" value="1.0252777461838902" />
+      <entry key="S2" value="1.7140397487333123" />
+      <entry key="S5" value="2.325130014411783" />
+      <entry key="S10" value="2.6978881305464935" />
+      <entry key="S30" value="5.996554813117267" />
+      <entry key="S60" value="11.334304026120122" />
+      <entry key="M2" value="16.831737495610827" />
+      <entry key="M5" value="21.76246079264954" />
+      <entry key="M10" value="24.076441913584183" />
+      <entry key="M15" value="25.9744686670757" />
+      <entry key="M30" value="32.50898693759332" />
+      <entry key="H1" value="41.776080918460636" />
+      <entry key="H2" value="49.91894465777497" />
+      <entry key="H4" value="55.36303920580548" />
+      <entry key="D1" value="60.80032604690745" />
+      <entry key="W1" value="61.82617421607507" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -135,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794678930904</updated>
-      <workItem from="1794678931917" duration="2866000" />
+      <workItem from="1794678931917" duration="3167000" />
     </task>
     <task id="LOCAL-00001" summary="Project files created">
       <option name="closed" value="true" />
@@ -169,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794679833718</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="custom definition for hash table and binary search tree added. Added self-tests for data structures validation">
+      <option name="closed" value="true" />
+      <created>1794683838123</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1794683838123</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +197,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project files created" />
     <MESSAGE value="CustomDataStructures Folder and CustomArray class that includes custom definitions for fixed and dynamic array created" />
-    <option name="LAST_COMMIT_MESSAGE" value="CustomDataStructures Folder and CustomArray class that includes custom definitions for fixed and dynamic array created" />
+    <MESSAGE value="custom definition for hash table and binary search tree added. Added self-tests for data structures validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom definition for hash table and binary search tree added. Added self-tests for data structures validation" />
   </component>
 </project>
