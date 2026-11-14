@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51df1aa7-82d9-481e-a278-bbfbceb392ec" name="Changes" comment="" />
+    <list default="true" id="51df1aa7-82d9-481e-a278-bbfbceb392ec" name="Changes" comment="Project files created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +9,65 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0004021450636478" />
+      <entry key="MS500" value="1.2286992818184197" />
+      <entry key="S2" value="2.5302051455359624" />
+      <entry key="S5" value="3.9662479825878854" />
+      <entry key="S10" value="4.8202947161754945" />
+      <entry key="S30" value="5.562986724019006" />
+      <entry key="S60" value="5.775460645815236" />
+      <entry key="M2" value="5.8861763946085865" />
+      <entry key="M5" value="5.954091591560344" />
+      <entry key="M10" value="5.976982125619117" />
+      <entry key="M15" value="5.984640563517594" />
+      <entry key="M30" value="5.992313178793612" />
+      <entry key="H1" value="5.996154811868609" />
+      <entry key="H2" value="5.998076961328688" />
+      <entry key="H4" value="5.999038369484981" />
+      <entry key="D1" value="5.999839712803546" />
+      <entry key="W1" value="5.9999771014508285" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9663247753609082" />
+      <entry key="MS500" value="1.219900210283966" />
+      <entry key="S2" value="2.5234680555075126" />
+      <entry key="S5" value="3.961360211425689" />
+      <entry key="S10" value="4.817191106783198" />
+      <entry key="S30" value="5.561760033802012" />
+      <entry key="S60" value="5.774819748839136" />
+      <entry key="M2" value="5.885848762458653" />
+      <entry key="M5" value="5.953958775360992" />
+      <entry key="M10" value="5.976915420297198" />
+      <entry key="M15" value="5.984596027004558" />
+      <entry key="M30" value="5.992290877325409" />
+      <entry key="H1" value="5.996143652819855" />
+      <entry key="H2" value="5.998071379724178" />
+      <entry key="H4" value="5.999035578162509" />
+      <entry key="D1" value="5.999839247510865" />
+      <entry key="W1" value="5.999977034978676" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1,
@@ -23,8 +82,11 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
 }]]></component>
@@ -42,11 +104,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794678930904</updated>
-      <workItem from="1794678931917" duration="1000" />
+      <workItem from="1794678931917" duration="237000" />
     </task>
+    <task id="LOCAL-00001" summary="Project files created">
+      <option name="closed" value="true" />
+      <created>1794679035723</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1794679035724</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project files created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project files created" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
