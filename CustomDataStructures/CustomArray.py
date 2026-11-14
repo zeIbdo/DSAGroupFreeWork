@@ -9,7 +9,7 @@ class Array:
         return self.size
 
     def get(self,i): #O(1)
-        if not 0<=i<self.capacity:
+        if not 0<=i<self.size:
             raise IndexError("index out of range")
         return self._data[i]
 

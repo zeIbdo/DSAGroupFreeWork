@@ -1,18 +1,18 @@
 class SNode:
-    _slots_ = ("value", "next")
+    __slots__ = ("value", "next")
 
-    def _init_(self, value, nxt=None):
+    def __init__(self, value, nxt=None):
         self.value = value
         self.next = nxt
 
 
 class SinglyLinkedList:
 
-    def _init_(self):
+    def __init__(self):
         self.head = None
         self.size = 0
 
-    def _len_(self):
+    def __len__(self):
         return self.size
 
     def prepend(self, v):  # O(1)
@@ -84,9 +84,9 @@ class SinglyLinkedList:
 
 
 class DNode:
-    _slots_ = ("value", "prev", "next")
+    __slots__ = ("value", "prev", "next")
 
-    def _init_(self, value):
+    def __init__(self, value):
         self.value = value
         self.prev = None
         self.next = None
@@ -94,12 +94,12 @@ class DNode:
 
 class DoublyLinkedList:
 
-    def _init_(self):
+    def __init__(self):
         self.head = None
         self.tail = None
         self.size = 0
 
-    def _len_(self):
+    def __len__(self):
         return self.size
 
     def prepend(self, v):  # O(1)
