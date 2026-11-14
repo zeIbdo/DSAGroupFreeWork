@@ -4,15 +4,30 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51df1aa7-82d9-481e-a278-bbfbceb392ec" name="Changes" comment="Project files created" />
+    <list default="true" id="51df1aa7-82d9-481e-a278-bbfbceb392ec" name="Changes" comment="CustomDataStructures Folder and CustomArray class that includes custom definitions for fixed and dynamic array created">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "zeIbdo"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/zeIbdo/DSAGroupFreeWork.git",
@@ -21,23 +36,23 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0004021450636478" />
-      <entry key="MS500" value="1.2286992818184197" />
-      <entry key="S2" value="2.5302051455359624" />
-      <entry key="S5" value="3.9662479825878854" />
-      <entry key="S10" value="4.8202947161754945" />
-      <entry key="S30" value="5.562986724019006" />
-      <entry key="S60" value="5.775460645815236" />
-      <entry key="M2" value="5.8861763946085865" />
-      <entry key="M5" value="5.954091591560344" />
-      <entry key="M10" value="5.976982125619117" />
-      <entry key="M15" value="5.984640563517594" />
-      <entry key="M30" value="5.992313178793612" />
-      <entry key="H1" value="5.996154811868609" />
-      <entry key="H2" value="5.998076961328688" />
-      <entry key="H4" value="5.999038369484981" />
-      <entry key="D1" value="5.999839712803546" />
-      <entry key="W1" value="5.9999771014508285" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000002732130429" />
+      <entry key="S2" value="1.0778052529652622" />
+      <entry key="S5" value="2.3384808350629953" />
+      <entry key="S10" value="5.534777225347752" />
+      <entry key="S30" value="14.916444017750685" />
+      <entry key="S60" value="20.733892904684804" />
+      <entry key="M2" value="24.865822732509542" />
+      <entry key="M5" value="28.693803031549173" />
+      <entry key="M10" value="31.211955462513274" />
+      <entry key="M15" value="32.448087405740004" />
+      <entry key="M30" value="34.00563435583256" />
+      <entry key="H1" value="34.93951205897309" />
+      <entry key="H2" value="35.45268795328971" />
+      <entry key="H4" value="35.72191095019363" />
+      <entry key="D1" value="35.95302150443236" />
+      <entry key="W1" value="35.99327315555655" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -59,23 +74,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9663247753609082" />
-      <entry key="MS500" value="1.219900210283966" />
-      <entry key="S2" value="2.5234680555075126" />
-      <entry key="S5" value="3.961360211425689" />
-      <entry key="S10" value="4.817191106783198" />
-      <entry key="S30" value="5.561760033802012" />
-      <entry key="S60" value="5.774819748839136" />
-      <entry key="M2" value="5.885848762458653" />
-      <entry key="M5" value="5.953958775360992" />
-      <entry key="M10" value="5.976915420297198" />
-      <entry key="M15" value="5.984596027004558" />
-      <entry key="M30" value="5.992290877325409" />
-      <entry key="H1" value="5.996143652819855" />
-      <entry key="H2" value="5.998071379724178" />
-      <entry key="H4" value="5.999035578162509" />
-      <entry key="D1" value="5.999839247510865" />
-      <entry key="W1" value="5.999977034978676" />
+      <entry key="MS100" value="0.9659363289248456" />
+      <entry key="MS500" value="0.9930927655038909" />
+      <entry key="S2" value="1.075877848477213" />
+      <entry key="S5" value="2.336490132259354" />
+      <entry key="S10" value="5.532246658862278" />
+      <entry key="S30" value="14.914076640998035" />
+      <entry key="S60" value="20.732231816328625" />
+      <entry key="M2" value="24.86482113484118" />
+      <entry key="M5" value="28.69333412108422" />
+      <entry key="M10" value="31.21169603916171" />
+      <entry key="M15" value="32.4479059754481" />
+      <entry key="M30" value="34.005538208269385" />
+      <entry key="H1" value="34.939462339198826" />
+      <entry key="H2" value="35.45266263896394" />
+      <entry key="H4" value="35.72189817355209" />
+      <entry key="D1" value="35.95301935787458" />
+      <entry key="W1" value="35.99327284847925" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -83,6 +98,9 @@
   "fromUser": false
 }]]></component>
   <component name="ProjectId" id="3M6lWIBBKIPSz7EoJhqqOOW3yag" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -117,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794678930904</updated>
-      <workItem from="1794678931917" duration="564000" />
+      <workItem from="1794678931917" duration="2866000" />
     </task>
     <task id="LOCAL-00001" summary="Project files created">
       <option name="closed" value="true" />
@@ -143,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794679236598</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CustomDataStructures Folder and CustomArray class that includes custom definitions for fixed and dynamic array created">
+      <option name="closed" value="true" />
+      <created>1794679833718</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1794679833718</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,17 +188,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project files created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project files created" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="CustomDataStructures Folder and CustomArray class that includes custom definitions for fixed and dynamic array created" />
+    <option name="LAST_COMMIT_MESSAGE" value="CustomDataStructures Folder and CustomArray class that includes custom definitions for fixed and dynamic array created" />
   </component>
 </project>
